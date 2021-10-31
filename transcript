@@ -1,0 +1,136 @@
+vsim LIB_BENCH.aes_tb
+# vsim LIB_BENCH.aes_tb 
+# Start time: 15:26:22 on Dec 23,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_aes.crypt_pack(body)
+# Loading LIB_BENCH.aes_tb(aes_tb_arch)
+# Loading lib_rtl.aes(aes_arch)
+# Loading lib_rtl.keyexpansion_i_o(keyexpansion_i_o_arch)
+# Loading lib_rtl.counter(counter_arch)
+# Loading lib_rtl.keyexpander(keyexpander_arch)
+# Loading lib_rtl.sbox(sbox_arch)
+# Loading lib_rtl.keyexpander_fsm_moor(keyexpander_fsm_moor_arch)
+# Loading lib_rtl.fsm_aes(fsm_aes_arch)
+# Loading lib_rtl.aesround(aesround_arch)
+# Loading lib_rtl.subbytes(subbytes_arch)
+# Loading lib_rtl.shiftrows(shiftrows_arch)
+# Loading lib_rtl.mixcolums(mixcolums_arch)
+# Loading lib_rtl.produitmatrix(produitmatrix_arch)
+# Loading lib_rtl.addroundkey(addroundkey_arch)
+add wave -position end sim:/aes_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /aes_tb/DUT/U0
+# WARNING: No extended dataflow license exists
+add dataflow sim:/aes_tb/*
+add dataflow sim:/aes_tb/DUT/*
+add log -r /*
+add dataflow sim:/aes_tb/DUT/*
+vlog -work ./LIB/LIB_BENCH -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:35:16 on Dec 23,2020
+# vlog -reportprogress 300 -work ./LIB/LIB_BENCH -refresh -force_refresh 
+# -- Skipping entity addroundkey_tb
+# -- Skipping entity aes_tb
+# -- Skipping configuration aes_tb_conf
+# -- Skipping entity aesround_tb
+# -- Skipping configuration aesround_tb_conf
+# -- Skipping entity keyexpander_tb
+# -- Skipping entity keyexpansion_i_o_tb
+# -- Skipping configuration keyexpansion_i_o_tb_conf
+# -- Skipping entity mixcolums_tb
+# -- Skipping configuration mixcolums_tb_conf
+# -- Skipping entity sbox_tb
+# -- Skipping entity shiftrows_tb
+# -- Skipping entity subbytes_tb
+# -- Skipping configuration subbytes_tb_conf
+# End time: 18:35:16 on Dec 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work ./LIB/LIB_BENCH -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:35:16 on Dec 23,2020
+# vcom -reportprogress 300 -work ./LIB/LIB_BENCH -refresh -force_refresh 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package crypt_pack
+# -- Compiling entity AddRoundKey_tb
+# -- Compiling architecture AddRoundKey_tb_arch of AddRoundKey_tb
+# -- Loading package NUMERIC_STD
+# -- Compiling entity AES_tb
+# -- Compiling architecture AES_tb_arch of AES_tb
+# -- Compiling entity AESRound_tb
+# -- Compiling architecture AESRound_tb_arch of AESRound_tb
+# -- Compiling entity KeyExpander_tb
+# -- Compiling architecture KeyExpander_tb_arch of KeyExpander_tb
+# -- Compiling entity KeyExpansion_I_O_tb
+# -- Compiling architecture KeyExpansion_I_O_tb_arch of KeyExpansion_I_O_tb
+# -- Compiling entity MixColums_tb
+# -- Compiling architecture MixColums_tb_arch of MixColums_tb
+# -- Compiling entity SBox_tb
+# -- Compiling architecture SBox_tb_arch of SBox_tb
+# -- Compiling entity ShiftRows_tb
+# -- Compiling architecture ShiftRows_tb_arch of ShiftRows_tb
+# -- Compiling entity SubBytes_tb
+# -- Compiling architecture SubBytes_tb_arch of SubBytes_tb
+# -- Compiling configuration AES_tb_conf
+# -- Loading entity AES_tb
+# -- Loading architecture AES_tb_arch of AES_tb
+# -- Loading entity AES
+# -- Loading configuration aes_conf
+# -- Compiling configuration AESRound_tb_conf
+# -- Loading entity AESRound_tb
+# -- Loading architecture AESRound_tb_arch of AESRound_tb
+# -- Loading entity AESRound
+# -- Loading configuration aesround_conf
+# -- Compiling configuration keyExpansion_I_O_tb_conf
+# -- Loading entity KeyExpansion_I_O_tb
+# -- Loading architecture KeyExpansion_I_O_tb_arch of KeyExpansion_I_O_tb
+# -- Loading entity KeyExpansion_I_O
+# -- Loading configuration keyexpansion_i_o_conf
+# -- Compiling configuration MixColums_tb_conf
+# -- Loading entity MixColums_tb
+# -- Loading architecture MixColums_tb_arch of MixColums_tb
+# -- Loading entity MixColums
+# -- Loading configuration mixcolums_conf
+# -- Compiling configuration SubBytes_tb_conf
+# -- Loading entity SubBytes_tb
+# -- Loading architecture SubBytes_tb_arch of SubBytes_tb
+# -- Loading entity SubBytes
+# -- Loading configuration subbytes_conf
+# End time: 18:35:17 on Dec 23,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim LIB_BENCH.aes_tb
+# End time: 18:35:42 on Dec 23,2020, Elapsed time: 3:09:20
+# Errors: 0, Warnings: 1
+# vsim LIB_BENCH.aes_tb 
+# Start time: 18:35:42 on Dec 23,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_aes.crypt_pack(body)
+# Loading LIB_BENCH.aes_tb(aes_tb_arch)
+# Loading lib_rtl.aes(aes_arch)
+# Loading lib_rtl.keyexpansion_i_o(keyexpansion_i_o_arch)
+# Loading lib_rtl.counter(counter_arch)
+# Loading lib_rtl.keyexpander(keyexpander_arch)
+# Loading lib_rtl.sbox(sbox_arch)
+# Loading lib_rtl.keyexpander_fsm_moor(keyexpander_fsm_moor_arch)
+# Loading lib_rtl.fsm_aes(fsm_aes_arch)
+# Loading lib_rtl.aesround(aesround_arch)
+# Loading lib_rtl.subbytes(subbytes_arch)
+# Loading lib_rtl.shiftrows(shiftrows_arch)
+# Loading lib_rtl.mixcolums(mixcolums_arch)
+# Loading lib_rtl.produitmatrix(produitmatrix_arch)
+# Loading lib_rtl.addroundkey(addroundkey_arch)
+add wave -position end sim:/aes_tb/DUT/*
+add wave -position 9 sim:/aes_tb/DUT/U1/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /aes_tb/DUT/U0
+# End time: 18:54:38 on Dec 23,2020, Elapsed time: 0:18:56
+# Errors: 0, Warnings: 1
